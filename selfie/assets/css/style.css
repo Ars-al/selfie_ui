@@ -1,0 +1,199 @@
+@font-face {
+    font-family:"myfont" ;
+    src: url(../fonts/Akira\ Expanded\ Demo.otf);
+}
+
+body{
+    background-color: black;
+}
+h1{
+    font-family: myfont;
+}
+h2{
+    font-family: myfont;
+}
+h3{
+    font-family: myfont;
+}
+h4{
+    font-family: myfont;
+}
+h5{
+    font-family: myfont;
+}
+.line-roadmap{
+    position: absolute;
+    height: 700px;
+    left: 50%;
+    /* right: 40%; */
+    bottom: 0%;
+}
+.position-r{
+    position: relative;
+}
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+.img-2{
+    height: 50vh;
+    width: 70vw;
+}
+.second-text h6{
+    color: #be003f;
+}
+.second-text h1{
+    font-size: 80px;
+}
+.second-div{
+    position: relative;
+}
+.second-div-2{
+    /* position: absolute; */
+    top: 35%;
+    left: 25%;
+    background: transparent;
+}
+
+.second-text p{
+    color: #666666;
+}
+
+
+.card-main {
+    padding: 13px;
+    width: 200px;
+}
+.card-img {
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+.fourth-text p{ 
+        color: #666666;  
+}
+
+.fifth-text h2{
+    font-size: 40px;   
+}
+/* .img-fifth{
+    height: 600px;
+    top: 23%;
+    left: 40%;
+    right: 40%;
+} */
+.fifth-para{
+    background-color: #d9034c;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.acc-bg{
+    background-color: black;
+}
+.accordion-button::after{
+    background-image: url(../images/angle.svg) !important;
+}
+
+  .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+  }
+
+
+
+/* .faq{
+     font-size: 40px;   
+}
+
+.accordion-button{
+    font-size: 25px;
+} */
+
+
+.seventh-text{
+    font-size: 40px;   
+}
+
+.card-body p{
+    color: #666666;
+    /* font-size: 23px; */
+}
+
+.text00{
+    color: #8e8e8e;
+}
+
+.fa-telegram{
+    color: #e1008b;
+}
+
+
+
+
+
+
+.menu {
+    /* background-color: aliceblue; */
+    /* width: 300px; */
+    /* opacity: 0.4; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .menu p {
+    margin: 0px 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .social-list{
+    background-color: rgb(33, 33, 33);
+    /* width: 280px; */
+    /* opacity: 0.3; */
+    border-radius: 5px;
+    list-style-type: none;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+  }
+  
+  .social-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: padding 0.2s linear;
+    color: white;
+  }
+  
+  .social-list li:hover {
+    font-size: 17px;
+  }
+  
+  .social-list li .fa-brands {
+    margin: 0px 10px;
+  }
+  
+  .hide {
+    visibility: hidden;
+  }
+  
+  .rotate .fa-solid {
+    transform: rotate(180deg);
+  }
+  
+  .fa-solid {
+    transition: transform 0.2s;
+    color: white;
+  }
